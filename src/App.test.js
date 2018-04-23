@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
+import {shallow} from 'enzyme';
+import { config } from './enzyme_set_up';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+describe('App',()=>{
+  const app = shallow(<App />);
+
+  it('renders correctly', ()=>{
+    expect(app).toMatchSnapshot();
+  })
+})

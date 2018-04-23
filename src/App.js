@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CurrencyApp from './components/CurrencyApp';
+
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        NBP APP Hello
+        <CurrencyApp />
       </div>
     );
   }
