@@ -17,10 +17,101 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "CurrencyApp works!!!",
+      "children": Array [
+        <header>
+          <h1>
+                    NBP currency Aplication
+          </h1>
+</header>,
+        <body>
+          <h2>
+                    BODY
+          </h2>
+</body>,
+        <footer>
+          <div
+                    className="text-right"
+          >
+                    timmer: 10:45:22
+          </div>
+</footer>,
+      ],
     },
     "ref": null,
-    "rendered": "CurrencyApp works!!!",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            NBP currency Aplication
+</h1>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "NBP currency Aplication",
+          },
+          "ref": null,
+          "rendered": "NBP currency Aplication",
+          "type": "h1",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            BODY
+</h2>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BODY",
+          },
+          "ref": null,
+          "rendered": "BODY",
+          "type": "h2",
+        },
+        "type": "body",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="text-right"
+>
+            timmer: 10:45:22
+</div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "timmer: 10:45:22",
+            "className": "text-right",
+          },
+          "ref": null,
+          "rendered": "timmer: 10:45:22",
+          "type": "div",
+        },
+        "type": "footer",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -29,10 +120,101 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "CurrencyApp works!!!",
+        "children": Array [
+          <header>
+            <h1>
+                        NBP currency Aplication
+            </h1>
+</header>,
+          <body>
+            <h2>
+                        BODY
+            </h2>
+</body>,
+          <footer>
+            <div
+                        className="text-right"
+            >
+                        timmer: 10:45:22
+            </div>
+</footer>,
+        ],
       },
       "ref": null,
-      "rendered": "CurrencyApp works!!!",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              NBP currency Aplication
+</h1>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "NBP currency Aplication",
+            },
+            "ref": null,
+            "rendered": "NBP currency Aplication",
+            "type": "h1",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              BODY
+</h2>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "BODY",
+            },
+            "ref": null,
+            "rendered": "BODY",
+            "type": "h2",
+          },
+          "type": "body",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="text-right"
+>
+              timmer: 10:45:22
+</div>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "timmer: 10:45:22",
+              "className": "text-right",
+            },
+            "ref": null,
+            "rendered": "timmer: 10:45:22",
+            "type": "div",
+          },
+          "type": "footer",
+        },
+      ],
       "type": "div",
     },
   ],

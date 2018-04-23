@@ -7,7 +7,7 @@ import CurrencyApp from './components/CurrencyApp';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <CurrencyApp />
       </div>
     );

@@ -18,6 +18,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <CurrencyApp />,
+      "className": "container",
     },
     "ref": null,
     "rendered": Object {
@@ -38,6 +39,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <CurrencyApp />,
+        "className": "container",
       },
       "ref": null,
       "rendered": Object {
