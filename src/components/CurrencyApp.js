@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import data from '../api/nbp_tab'
 
 // <ul>
 //     <li>Current buy and sell tab with currencies</li>
@@ -7,21 +7,31 @@ import PropTypes from 'prop-types';
 //     <li>Current Time</li>
 // </ul>
 
-const propTypes = {
-    
-};
-
-
 class CurrencyApp extends Component {
+    constructor() {
+       super()
+       this.state = {
+           list: []
+       }
+    }
+
+    componentDidMount() {
+        (async () => {
+            const list = await data();
+            this.setState ({ list })
+            console.log(this.state.list)
+        })()
+    }
+    
     render() {
         return (
             <div>
                 <header>
                     <h1>NBP currency Aplication</h1>
                 </header>
-                <body>
-                 <h2>BODY</h2>
-                </body>
+                <div>
+
+                </div>
                 <footer>
                     <div className="text-right">timmer: 10:45:22</div>
                 </footer>  
@@ -29,9 +39,5 @@ class CurrencyApp extends Component {
         );
     }
 }
-
-
-CurrencyApp.propTypes = propTypes;
-
 
 export default CurrencyApp;
