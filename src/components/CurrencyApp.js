@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import data from '../api/nbp_tab'
+import data from '../api/nbp_tab';
+import Table from './Table';
 
 // <ul>
 //     <li>Current buy and sell tab with currencies</li>
@@ -16,11 +17,20 @@ class CurrencyApp extends Component {
     }
 
     componentDidMount() {
-        (async () => {
-            const list = await data();
-            this.setState ({ list })
-            console.log(this.state.list)
-        })()
+        data()
+            .then((result)=>{
+                const list = result;
+                this.setState ({ list }) 
+            })
+            .catch( err => {
+                this.setState ({ list: [] })
+            })
+        // where to put reject in async/await
+        // (async () => {
+        //     const list = await data();
+        //     this.setState ({ list })
+        //     console.log(this.state.list)
+        // })()
     }
     
     render() {
@@ -30,7 +40,7 @@ class CurrencyApp extends Component {
                     <h1>NBP currency Aplication</h1>
                 </header>
                 <div>
-
+                    <Table list={this.state.list}/>
                 </div>
                 <footer>
                     <div className="text-right">timmer: 10:45:22</div>
