@@ -9,4 +9,8 @@ describe('App',()=>{
   it('renders correctly', ()=>{
     expect(app).toMatchSnapshot();
   })
+
+  it('should contain CurrencyApp component', () => {
+    expect(app.find('CurrencyApp').exists()).toBe(true);
+  });
 })
