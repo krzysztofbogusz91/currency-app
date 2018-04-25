@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import data from '../api/nbp_tab';
 import Table from './Table';
+import { Header } from '../containers/header';
 
 // <ul>
 //     <li>Current buy and sell tab with currencies</li>
@@ -36,9 +37,7 @@ class CurrencyApp extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <h1>NBP currency Aplication</h1>
-                </header>
+                <Header />
                 <div>
                     <Table list={this.state.list}/>
                 </div>

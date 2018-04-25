@@ -13,6 +13,12 @@ describe('Table', () => {
       })
     it('should have list props', () => {
         expect(tab.props().list.length).toEqual(2)
-        
-    }); 
+    });
+
+    it('should have table with class .currency-tab', () => {
+        expect(tab.find('.currency-tab').exists()).toBe(true)
+    });
+    it('tbody should have 2 children elements', () => {
+        expect(tab.find('tbody').children().length).toEqual(2)
+    });
 });

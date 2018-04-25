@@ -8,15 +8,32 @@ const propTypes = {
 
 class Table extends Component {
     render() {
-        const list = this.props.list.map((a,i) => {
+        const list = this.props.list.map((a, i) => {
             return (
-                <li key={i}>{a.currency}</li>
+                <tr key={i}>
+                    <td>{a.currency}</td>
+                    <td>{a.code}</td>
+                    <td>{a.bid}</td>
+                    <td>{a.ask}</td>
+                </tr>
             )
         })
-        
+
         return (
-            <div>
-                <ul>{list}</ul>
+            <div className="mt-4">
+                <table className="table table-bordered table-striped currency-tab">
+                    <thead>
+                        <tr className="table-success">
+                            <th scope="col">Waluta</th>
+                            <th scope="col">Symbol</th>
+                            <th scope="col">Sprzedaż</th>
+                            <th scope="col">Kupno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {list}
+                    </tbody>
+                </table>
             </div>
         );
     }
