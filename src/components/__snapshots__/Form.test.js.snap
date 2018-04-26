@@ -144,7 +144,7 @@ ReactWrapper {
                                                                         />
                                                                         <button
                                                                                           type="submit"
-                                                                                          class="btn btn-info"
+                                                                                          class="btn btn-info fetch-list"
                                                                         >
                                                                                           Sprawdź
                                                                         </button>
@@ -294,7 +294,7 @@ ReactWrapper {
                                                                 />
                                                                 <button
                                                                                 type="submit"
-                                                                                class="btn btn-info"
+                                                                                class="btn btn-info fetch-list"
                                                                 >
                                                                                 Sprawdź
                                                                 </button>
@@ -388,7 +388,7 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-            "lineNumber": 37,
+            "lineNumber": 52,
           },
           "alternate": null,
           "child": FiberNode {
@@ -397,7 +397,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-              "lineNumber": 38,
+              "lineNumber": 53,
             },
             "alternate": null,
             "child": FiberNode {
@@ -406,7 +406,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                "lineNumber": 39,
+                "lineNumber": 54,
               },
               "alternate": null,
               "child": FiberNode {
@@ -415,7 +415,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                  "lineNumber": 40,
+                  "lineNumber": 55,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -424,7 +424,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                    "lineNumber": 41,
+                    "lineNumber": 58,
                   },
                   "alternate": null,
                   "child": null,
@@ -459,7 +459,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                        "lineNumber": 17,
+                        "lineNumber": 19,
                       },
                       "alternate": null,
                       "child": null,
@@ -488,7 +488,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                          "lineNumber": 17,
+                          "lineNumber": 19,
                         },
                         "alternate": null,
                         "child": null,
@@ -605,6 +605,7 @@ ReactWrapper {
                     ],
                   ],
                   "className": "custom-select select-currencies",
+                  "onChange": [Function],
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -630,6 +631,7 @@ ReactWrapper {
                     ],
                   ],
                   "className": "custom-select select-currencies",
+                  "onChange": [Function],
                 },
                 "ref": null,
                 "return": [Circular],
@@ -664,6 +666,7 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": <select
                   className="custom-select select-currencies"
+                  onChange={[Function]}
 >
                   <option
                                     defaultValue={true}
@@ -689,6 +692,7 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": <select
                   className="custom-select select-currencies"
+                  onChange={[Function]}
 >
                   <option
                                     defaultValue={true}
@@ -716,7 +720,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                  "lineNumber": 45,
+                  "lineNumber": 62,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -725,7 +729,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                    "lineNumber": 46,
+                    "lineNumber": 63,
                   },
                   "alternate": null,
                   "child": null,
@@ -756,7 +760,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                      "lineNumber": 51,
+                      "lineNumber": 68,
                     },
                     "alternate": null,
                     "child": null,
@@ -791,7 +795,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                        "lineNumber": 56,
+                        "lineNumber": 73,
                       },
                       "alternate": null,
                       "child": null,
@@ -803,7 +807,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "children": "Sprawdź",
-                        "className": "btn btn-info",
+                        "className": "btn btn-info fetch-list",
                         "onClick": [Function],
                         "type": "submit",
                       },
@@ -812,7 +816,7 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "children": "Sprawdź",
-                        "className": "btn btn-info",
+                        "className": "btn btn-info fetch-list",
                         "onClick": [Function],
                         "type": "submit",
                       },
@@ -821,7 +825,7 @@ ReactWrapper {
                       "sibling": null,
                       "stateNode": <button
                         type="submit"
-                        class="btn btn-info"
+                        class="btn btn-info fetch-list"
 >
                         Sprawdź
 </button>,
@@ -871,7 +875,7 @@ ReactWrapper {
                       value="1"
 />,
                     <button
-                      className="btn btn-info"
+                      className="btn btn-info fetch-list"
                       onClick={[Function]}
                       type="submit"
 >
@@ -899,7 +903,7 @@ ReactWrapper {
                       value="1"
 />,
                     <button
-                      className="btn btn-info"
+                      className="btn btn-info fetch-list"
                       onClick={[Function]}
                       type="submit"
 >
@@ -928,7 +932,7 @@ ReactWrapper {
                   />
                   <button
                                     type="submit"
-                                    class="btn btn-info"
+                                    class="btn btn-info fetch-list"
                   >
                                     Sprawdź
                   </button>
@@ -975,6 +979,7 @@ ReactWrapper {
 >
                   <select
                                     className="custom-select select-currencies"
+                                    onChange={[Function]}
                   >
                                     <option
                                                       defaultValue={true}
@@ -1010,7 +1015,7 @@ ReactWrapper {
                                     value="1"
                   />
                   <button
-                                    className="btn btn-info"
+                                    className="btn btn-info fetch-list"
                                     onClick={[Function]}
                                     type="submit"
                   >
@@ -1029,6 +1034,7 @@ ReactWrapper {
 >
                   <select
                                     className="custom-select select-currencies"
+                                    onChange={[Function]}
                   >
                                     <option
                                                       defaultValue={true}
@@ -1064,7 +1070,7 @@ ReactWrapper {
                                     value="1"
                   />
                   <button
-                                    className="btn btn-info"
+                                    className="btn btn-info fetch-list"
                                     onClick={[Function]}
                                     type="submit"
                   >
@@ -1115,7 +1121,7 @@ ReactWrapper {
                             />
                             <button
                                           type="submit"
-                                          class="btn btn-info"
+                                          class="btn btn-info fetch-list"
                             >
                                           Sprawdź
                             </button>
@@ -1138,6 +1144,7 @@ ReactWrapper {
               >
                             <select
                                           className="custom-select select-currencies"
+                                          onChange={[Function]}
                             >
                                           <option
                                                         defaultValue={true}
@@ -1173,7 +1180,7 @@ ReactWrapper {
                                           value="1"
                             />
                             <button
-                                          className="btn btn-info"
+                                          className="btn btn-info fetch-list"
                                           onClick={[Function]}
                                           type="submit"
                             >
@@ -1193,6 +1200,7 @@ ReactWrapper {
               >
                             <select
                                           className="custom-select select-currencies"
+                                          onChange={[Function]}
                             >
                                           <option
                                                         defaultValue={true}
@@ -1228,7 +1236,7 @@ ReactWrapper {
                                           value="1"
                             />
                             <button
-                                          className="btn btn-info"
+                                          className="btn btn-info fetch-list"
                                           onClick={[Function]}
                                           type="submit"
                             >
@@ -1283,7 +1291,7 @@ ReactWrapper {
                                     />
                                     <button
                                                 type="submit"
-                                                class="btn btn-info"
+                                                class="btn btn-info fetch-list"
                                     >
                                                 Sprawdź
                                     </button>
@@ -1309,6 +1317,7 @@ ReactWrapper {
         },
         "memoizedState": Object {
           "range": "1",
+          "select": "",
         },
         "mode": 0,
         "nextEffect": null,
@@ -1439,7 +1448,7 @@ ReactWrapper {
                                                                         />
                                                                         <button
                                                                                           type="submit"
-                                                                                          class="btn btn-info"
+                                                                                          class="btn btn-info fetch-list"
                                                                         >
                                                                                           Sprawdź
                                                                         </button>
@@ -1589,7 +1598,7 @@ ReactWrapper {
                                                                 />
                                                                 <button
                                                                                 type="submit"
-                                                                                class="btn btn-info"
+                                                                                class="btn btn-info fetch-list"
                                                                 >
                                                                                 Sprawdź
                                                                 </button>
@@ -1686,6 +1695,7 @@ ReactWrapper {
       "context": Object {},
       "getOptions": [Function],
       "inputOnChange": [Function],
+      "onSelect": [Function],
       "props": Object {
         "getDataFromForm": [Function],
         "options": Array [
@@ -1696,6 +1706,7 @@ ReactWrapper {
       "refs": Object {},
       "state": Object {
         "range": "1",
+        "select": "",
       },
       "updater": Object {
         "enqueueForceUpdate": [Function],
@@ -1757,7 +1768,7 @@ ReactWrapper {
                         />
                         <button
                                 type="submit"
-                                class="btn btn-info"
+                                class="btn btn-info fetch-list"
                         >
                                 Sprawdź
                         </button>
@@ -1773,6 +1784,7 @@ ReactWrapper {
           >
                     <select
                               className="custom-select select-currencies"
+                              onChange={[Function]}
                     >
                               <option
                                         defaultValue={true}
@@ -1808,7 +1820,7 @@ ReactWrapper {
                               value="1"
                     />
                     <button
-                              className="btn btn-info"
+                              className="btn btn-info fetch-list"
                               onClick={[Function]}
                               type="submit"
                     >
@@ -1860,7 +1872,7 @@ ReactWrapper {
                         />
                         <button
                                     type="submit"
-                                    class="btn btn-info"
+                                    class="btn btn-info fetch-list"
                         >
                                     Sprawdź
                         </button>
@@ -1875,6 +1887,7 @@ ReactWrapper {
 >
                 <select
                                 className="custom-select select-currencies"
+                                onChange={[Function]}
                 >
                                 <option
                                                 defaultValue={true}
@@ -1910,7 +1923,7 @@ ReactWrapper {
                                 value="1"
                 />
                 <button
-                                className="btn btn-info"
+                                className="btn btn-info fetch-list"
                                 onClick={[Function]}
                                 type="submit"
                 >
@@ -1948,6 +1961,7 @@ ReactWrapper {
               "props": Object {
                 "children": <select
                   className="custom-select select-currencies"
+                  onChange={[Function]}
 >
                   <option
                                     defaultValue={true}
@@ -2010,6 +2024,7 @@ ReactWrapper {
                       ],
                     ],
                     "className": "custom-select select-currencies",
+                    "onChange": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2089,7 +2104,7 @@ ReactWrapper {
                 />
                 <button
                                 type="submit"
-                                class="btn btn-info"
+                                class="btn btn-info fetch-list"
                 >
                                 Sprawdź
                 </button>
@@ -2112,7 +2127,7 @@ ReactWrapper {
                     value="1"
 />,
                   <button
-                    className="btn btn-info"
+                    className="btn btn-info fetch-list"
                     onClick={[Function]}
                     type="submit"
 >
@@ -2168,7 +2183,7 @@ ReactWrapper {
                 Object {
                   "instance": <button
                     type="submit"
-                    class="btn btn-info"
+                    class="btn btn-info fetch-list"
 >
                     Sprawdź
 </button>,
@@ -2176,7 +2191,7 @@ ReactWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Sprawdź",
-                    "className": "btn btn-info",
+                    "className": "btn btn-info fetch-list",
                     "onClick": [Function],
                     "type": "submit",
                   },
@@ -2322,7 +2337,7 @@ ReactWrapper {
                                                                                 />
                                                                                 <button
                                                                                                     type="submit"
-                                                                                                    class="btn btn-info"
+                                                                                                    class="btn btn-info fetch-list"
                                                                                 >
                                                                                                     Sprawdź
                                                                                 </button>
@@ -2472,7 +2487,7 @@ ReactWrapper {
                                                                         />
                                                                         <button
                                                                                           type="submit"
-                                                                                          class="btn btn-info"
+                                                                                          class="btn btn-info fetch-list"
                                                                         >
                                                                                           Sprawdź
                                                                         </button>
@@ -2566,7 +2581,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-              "lineNumber": 37,
+              "lineNumber": 52,
             },
             "alternate": null,
             "child": FiberNode {
@@ -2575,7 +2590,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                "lineNumber": 38,
+                "lineNumber": 53,
               },
               "alternate": null,
               "child": FiberNode {
@@ -2584,7 +2599,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                  "lineNumber": 39,
+                  "lineNumber": 54,
                 },
                 "alternate": null,
                 "child": FiberNode {
@@ -2593,7 +2608,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                    "lineNumber": 40,
+                    "lineNumber": 55,
                   },
                   "alternate": null,
                   "child": FiberNode {
@@ -2602,7 +2617,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                      "lineNumber": 41,
+                      "lineNumber": 58,
                     },
                     "alternate": null,
                     "child": null,
@@ -2637,7 +2652,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                          "lineNumber": 17,
+                          "lineNumber": 19,
                         },
                         "alternate": null,
                         "child": null,
@@ -2666,7 +2681,7 @@ ReactWrapper {
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
                             "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                            "lineNumber": 17,
+                            "lineNumber": 19,
                           },
                           "alternate": null,
                           "child": null,
@@ -2783,6 +2798,7 @@ ReactWrapper {
                       ],
                     ],
                     "className": "custom-select select-currencies",
+                    "onChange": [Function],
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -2808,6 +2824,7 @@ ReactWrapper {
                       ],
                     ],
                     "className": "custom-select select-currencies",
+                    "onChange": [Function],
                   },
                   "ref": null,
                   "return": [Circular],
@@ -2842,6 +2859,7 @@ ReactWrapper {
                 "memoizedProps": Object {
                   "children": <select
                     className="custom-select select-currencies"
+                    onChange={[Function]}
 >
                     <option
                                         defaultValue={true}
@@ -2867,6 +2885,7 @@ ReactWrapper {
                 "pendingProps": Object {
                   "children": <select
                     className="custom-select select-currencies"
+                    onChange={[Function]}
 >
                     <option
                                         defaultValue={true}
@@ -2894,7 +2913,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                    "lineNumber": 45,
+                    "lineNumber": 62,
                   },
                   "alternate": null,
                   "child": FiberNode {
@@ -2903,7 +2922,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                      "lineNumber": 46,
+                      "lineNumber": 63,
                     },
                     "alternate": null,
                     "child": null,
@@ -2934,7 +2953,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                        "lineNumber": 51,
+                        "lineNumber": 68,
                       },
                       "alternate": null,
                       "child": null,
@@ -2969,7 +2988,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                          "lineNumber": 56,
+                          "lineNumber": 73,
                         },
                         "alternate": null,
                         "child": null,
@@ -2981,7 +3000,7 @@ ReactWrapper {
                         "lastEffect": null,
                         "memoizedProps": Object {
                           "children": "Sprawdź",
-                          "className": "btn btn-info",
+                          "className": "btn btn-info fetch-list",
                           "onClick": [Function],
                           "type": "submit",
                         },
@@ -2990,7 +3009,7 @@ ReactWrapper {
                         "nextEffect": null,
                         "pendingProps": Object {
                           "children": "Sprawdź",
-                          "className": "btn btn-info",
+                          "className": "btn btn-info fetch-list",
                           "onClick": [Function],
                           "type": "submit",
                         },
@@ -2999,7 +3018,7 @@ ReactWrapper {
                         "sibling": null,
                         "stateNode": <button
                           type="submit"
-                          class="btn btn-info"
+                          class="btn btn-info fetch-list"
 >
                           Sprawdź
 </button>,
@@ -3049,7 +3068,7 @@ ReactWrapper {
                         value="1"
 />,
                       <button
-                        className="btn btn-info"
+                        className="btn btn-info fetch-list"
                         onClick={[Function]}
                         type="submit"
 >
@@ -3077,7 +3096,7 @@ ReactWrapper {
                         value="1"
 />,
                       <button
-                        className="btn btn-info"
+                        className="btn btn-info fetch-list"
                         onClick={[Function]}
                         type="submit"
 >
@@ -3106,7 +3125,7 @@ ReactWrapper {
                     />
                     <button
                                         type="submit"
-                                        class="btn btn-info"
+                                        class="btn btn-info fetch-list"
                     >
                                         Sprawdź
                     </button>
@@ -3153,6 +3172,7 @@ ReactWrapper {
 >
                     <select
                                         className="custom-select select-currencies"
+                                        onChange={[Function]}
                     >
                                         <option
                                                             defaultValue={true}
@@ -3188,7 +3208,7 @@ ReactWrapper {
                                         value="1"
                     />
                     <button
-                                        className="btn btn-info"
+                                        className="btn btn-info fetch-list"
                                         onClick={[Function]}
                                         type="submit"
                     >
@@ -3207,6 +3227,7 @@ ReactWrapper {
 >
                     <select
                                         className="custom-select select-currencies"
+                                        onChange={[Function]}
                     >
                                         <option
                                                             defaultValue={true}
@@ -3242,7 +3263,7 @@ ReactWrapper {
                                         value="1"
                     />
                     <button
-                                        className="btn btn-info"
+                                        className="btn btn-info fetch-list"
                                         onClick={[Function]}
                                         type="submit"
                     >
@@ -3293,7 +3314,7 @@ ReactWrapper {
                                 />
                                 <button
                                                 type="submit"
-                                                class="btn btn-info"
+                                                class="btn btn-info fetch-list"
                                 >
                                                 Sprawdź
                                 </button>
@@ -3316,6 +3337,7 @@ ReactWrapper {
                 >
                                 <select
                                                 className="custom-select select-currencies"
+                                                onChange={[Function]}
                                 >
                                                 <option
                                                                 defaultValue={true}
@@ -3351,7 +3373,7 @@ ReactWrapper {
                                                 value="1"
                                 />
                                 <button
-                                                className="btn btn-info"
+                                                className="btn btn-info fetch-list"
                                                 onClick={[Function]}
                                                 type="submit"
                                 >
@@ -3371,6 +3393,7 @@ ReactWrapper {
                 >
                                 <select
                                                 className="custom-select select-currencies"
+                                                onChange={[Function]}
                                 >
                                                 <option
                                                                 defaultValue={true}
@@ -3406,7 +3429,7 @@ ReactWrapper {
                                                 value="1"
                                 />
                                 <button
-                                                className="btn btn-info"
+                                                className="btn btn-info fetch-list"
                                                 onClick={[Function]}
                                                 type="submit"
                                 >
@@ -3461,7 +3484,7 @@ ReactWrapper {
                                           />
                                           <button
                                                         type="submit"
-                                                        class="btn btn-info"
+                                                        class="btn btn-info fetch-list"
                                           >
                                                         Sprawdź
                                           </button>
@@ -3487,6 +3510,7 @@ ReactWrapper {
           },
           "memoizedState": Object {
             "range": "1",
+            "select": "",
           },
           "mode": 0,
           "nextEffect": null,
@@ -3617,7 +3641,7 @@ ReactWrapper {
                                                                                 />
                                                                                 <button
                                                                                                     type="submit"
-                                                                                                    class="btn btn-info"
+                                                                                                    class="btn btn-info fetch-list"
                                                                                 >
                                                                                                     Sprawdź
                                                                                 </button>
@@ -3767,7 +3791,7 @@ ReactWrapper {
                                                                         />
                                                                         <button
                                                                                           type="submit"
-                                                                                          class="btn btn-info"
+                                                                                          class="btn btn-info fetch-list"
                                                                         >
                                                                                           Sprawdź
                                                                         </button>
@@ -3864,6 +3888,7 @@ ReactWrapper {
         "context": Object {},
         "getOptions": [Function],
         "inputOnChange": [Function],
+        "onSelect": [Function],
         "props": Object {
           "getDataFromForm": [Function],
           "options": Array [
@@ -3874,6 +3899,7 @@ ReactWrapper {
         "refs": Object {},
         "state": Object {
           "range": "1",
+          "select": "",
         },
         "updater": Object {
           "enqueueForceUpdate": [Function],
@@ -3935,7 +3961,7 @@ ReactWrapper {
                               />
                               <button
                                         type="submit"
-                                        class="btn btn-info"
+                                        class="btn btn-info fetch-list"
                               >
                                         Sprawdź
                               </button>
@@ -3951,6 +3977,7 @@ ReactWrapper {
             >
                         <select
                                     className="custom-select select-currencies"
+                                    onChange={[Function]}
                         >
                                     <option
                                                 defaultValue={true}
@@ -3986,7 +4013,7 @@ ReactWrapper {
                                     value="1"
                         />
                         <button
-                                    className="btn btn-info"
+                                    className="btn btn-info fetch-list"
                                     onClick={[Function]}
                                     type="submit"
                         >
@@ -4038,7 +4065,7 @@ ReactWrapper {
                             />
                             <button
                                           type="submit"
-                                          class="btn btn-info"
+                                          class="btn btn-info fetch-list"
                             >
                                           Sprawdź
                             </button>
@@ -4053,6 +4080,7 @@ ReactWrapper {
 >
                   <select
                                     className="custom-select select-currencies"
+                                    onChange={[Function]}
                   >
                                     <option
                                                       defaultValue={true}
@@ -4088,7 +4116,7 @@ ReactWrapper {
                                     value="1"
                   />
                   <button
-                                    className="btn btn-info"
+                                    className="btn btn-info fetch-list"
                                     onClick={[Function]}
                                     type="submit"
                   >
@@ -4126,6 +4154,7 @@ ReactWrapper {
                 "props": Object {
                   "children": <select
                     className="custom-select select-currencies"
+                    onChange={[Function]}
 >
                     <option
                                         defaultValue={true}
@@ -4188,6 +4217,7 @@ ReactWrapper {
                         ],
                       ],
                       "className": "custom-select select-currencies",
+                      "onChange": [Function],
                     },
                     "ref": null,
                     "rendered": Array [
@@ -4267,7 +4297,7 @@ ReactWrapper {
                   />
                   <button
                                     type="submit"
-                                    class="btn btn-info"
+                                    class="btn btn-info fetch-list"
                   >
                                     Sprawdź
                   </button>
@@ -4290,7 +4320,7 @@ ReactWrapper {
                       value="1"
 />,
                     <button
-                      className="btn btn-info"
+                      className="btn btn-info fetch-list"
                       onClick={[Function]}
                       type="submit"
 >
@@ -4346,7 +4376,7 @@ ReactWrapper {
                   Object {
                     "instance": <button
                       type="submit"
-                      class="btn btn-info"
+                      class="btn btn-info fetch-list"
 >
                       Sprawdź
 </button>,
@@ -4354,7 +4384,7 @@ ReactWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Sprawdź",
-                      "className": "btn btn-info",
+                      "className": "btn btn-info fetch-list",
                       "onClick": [Function],
                       "type": "submit",
                     },

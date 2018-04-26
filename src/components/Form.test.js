@@ -19,9 +19,25 @@ describe('Form', () => {
     it('select has all values pass in list', ()=>{
         expect(form.find('.select-currencies').children().length).toEqual(3);
     })
-    it('change on imput updates state `state`', () => {
-        form.find('.imput-num').simulate('change', {target: {value: "10"}})
-        expect(form.state().range).toEqual('10')
-    });
-    console.log(form)
+    describe('imput works ok', ()=>{
+        it('change `state` on input change', () => {
+            form.find('.imput-num').simulate('change', {target: {value: "10"}})
+            expect(form.state().range).toEqual('10')
+        });
+        it('if passing val < 1 change val to 1 ',()=>{
+            form.find('.imput-num').simulate('change', {target: {value: "-10"}})
+            expect(form.state().range).toEqual('1')
+        })
+    })
+    
+    describe('testing button and data flow in components',()=>{
+        beforeEach(() => {
+            form.find('.fetch-list').simulate('click');
+        });
+
+        it('should get list of data passed in props', () => {
+            
+        });
+    })
+
 });

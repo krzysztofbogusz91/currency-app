@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-    options: PropTypes.array
+    options: PropTypes.array,
+    getDataFromForm: PropTypes.func
 };
 
 
 class Form extends Component {
     state = {
-        range: "1"
+        range: '1',
+        select: '',
     }
 
     getOptions = () =>{
@@ -20,16 +22,27 @@ class Form extends Component {
         return opt    
     }
 
+    onSelect = (e) =>{
+        let val = e.target.value
+        if(val.length > 3){
+           val = ""; 
+        }
+        this.setState({select: val})
+    }
+
     inputOnChange = (e) => {
-        let val = e.target.value;
+        let val = parseInt(e.target.value, 10);
         if(val < 1){
             val = 1
         }
-        this.setState({range: val})
+        this.setState({range: val.toString()})
     }
+
     buttonOnClick = (e) =>{
         e.preventDefault();
-        console.log('i work')
+        const code = this.state.select;
+        const range = this.state.range;
+        return code.length < 3 ? null : this.props.getDataFromForm(code,range);
     }
 
     render() {
@@ -37,7 +50,9 @@ class Form extends Component {
             <div className="mt-5">
                 <form>
                     <div className="form-group">
-                        <select className="custom-select select-currencies">
+                        <select 
+                            onChange={this.onSelect}
+                            className="custom-select select-currencies">
                             <option defaultValue={true}>Wybierz walutę</option>
                             {this.getOptions()}
                         </select>
@@ -56,7 +71,7 @@ class Form extends Component {
                         <button
                             onClick={this.buttonOnClick} 
                             type="submit"
-                            className="btn btn-info">
+                            className="btn btn-info fetch-list">
                             Sprawdź
                         </button>    
                     </div>

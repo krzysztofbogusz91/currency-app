@@ -35,21 +35,14 @@ class CurrencyApp extends Component {
         //     this.setState ({ list })
         //     console.log(this.state.list)
         // })()
-        data_list('USD','5')
-            .then((result) =>{
-                const dayList = result;
-                this.setState ({ dayList })
-                return result
-            }).catch( err => {
-                this.setState ({ list: [] })
-            }) 
     }
 
     getDataFromForm = (code, count) =>{
-        data_list('USD','5')
+        data_list(code,count)
             .then((result) =>{
                 const dayList = result;
                 this.setState ({ dayList })
+                console.log(result)
                 return result
             }).catch( err => {
                 this.setState ({ list: [] })
