@@ -6,6 +6,7 @@ describe('mock axios and test api', () => {
         const currencies = await dataMock();
         
         it('should have length 2', () => {
+           // console.log(currencies)
             expect(currencies.length).toBe(2);
         });
         

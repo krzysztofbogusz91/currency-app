@@ -5,7 +5,6 @@ const propTypes = {
     list: PropTypes.array
 };
 
-
 class Table extends Component {
     constructor() {
         super();
@@ -22,10 +21,8 @@ class Table extends Component {
         const list = this.props.list;
         //filter list on input change, and change all to same case
         const listFilterd = list.filter(a => {
-
               const check = a.code.toLowerCase();
               const match = this.state.searchValue.toLowerCase();
-
               return check.indexOf(match) >= 0; 
         })
         //gets end view result
@@ -39,7 +36,6 @@ class Table extends Component {
                 </tr>
             )
         })
-
         return listEnd;
     }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from '../api/nbp_tab';
+import data_list from '../api/nbp_list'
 import Table from './Table';
 import { Header } from '../containers/header';
 import Form from '../components/Form'
@@ -14,7 +15,8 @@ class CurrencyApp extends Component {
     constructor() {
        super()
        this.state = {
-           list: []
+           list: [],
+           dayList: []
        }
     }
 
@@ -33,6 +35,25 @@ class CurrencyApp extends Component {
         //     this.setState ({ list })
         //     console.log(this.state.list)
         // })()
+        data_list('USD','5')
+            .then((result) =>{
+                const dayList = result;
+                this.setState ({ dayList })
+                return result
+            }).catch( err => {
+                this.setState ({ list: [] })
+            }) 
+    }
+
+    getDataFromForm = (code, count) =>{
+        data_list('USD','5')
+            .then((result) =>{
+                const dayList = result;
+                this.setState ({ dayList })
+                return result
+            }).catch( err => {
+                this.setState ({ list: [] })
+            }) 
     }
     
     render() {
@@ -41,7 +62,11 @@ class CurrencyApp extends Component {
                 <Header />
                 <div>
                     <Table list={this.state.list}/>
-                    <Form />
+                    <Form
+                        options={this.state.list.map(a=>{
+                           return a.code
+                        })}
+                        getDataFromForm={this.getDataFromForm} />
                 </div>
                 <footer>
                     <div className="text-right">timmer: 10:45:22</div>

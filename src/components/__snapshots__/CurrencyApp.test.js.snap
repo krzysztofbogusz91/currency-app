@@ -23,7 +23,10 @@ ShallowWrapper {
           <Table
                     list={Array []}
           />
-          <Form />
+          <Form
+                    getDataFromForm={[Function]}
+                    options={Array []}
+          />
 </div>,
         <footer>
           <div
@@ -54,7 +57,10 @@ ShallowWrapper {
             <Table
               list={Array []}
 />,
-            <Form />,
+            <Form
+              getDataFromForm={[Function]}
+              options={Array []}
+/>,
           ],
         },
         "ref": null,
@@ -74,7 +80,10 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "getDataFromForm": [Function],
+              "options": Array [],
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -123,7 +132,10 @@ ShallowWrapper {
             <Table
                         list={Array []}
             />
-            <Form />
+            <Form
+                        getDataFromForm={[Function]}
+                        options={Array []}
+            />
 </div>,
           <footer>
             <div
@@ -154,7 +166,10 @@ ShallowWrapper {
               <Table
                 list={Array []}
 />,
-              <Form />,
+              <Form
+                getDataFromForm={[Function]}
+                options={Array []}
+/>,
             ],
           },
           "ref": null,
@@ -174,7 +189,10 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
-              "props": Object {},
+              "props": Object {
+                "getDataFromForm": [Function],
+                "options": Array [],
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

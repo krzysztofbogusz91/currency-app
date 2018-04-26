@@ -17,7 +17,7 @@ export default {
                     }
               ]  //rates
             }
-        ]
+        ],
     }//end resolve ob
 ))
 
