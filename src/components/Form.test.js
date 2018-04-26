@@ -7,6 +7,6 @@ import { mockData } from 'axios';
 describe('Form', () => {
     const form = shallow(<Form />)
     it('renders properly', ()=>{
-        expect(form).toMatchSnapshots();
+        expect(form).toMatchSnapshot();
     })
 });
