@@ -7,8 +7,29 @@ const propTypes = {
 
 
 class Table extends Component {
-    render() {
-        const list = this.props.list.map((a, i) => {
+    constructor() {
+        super();
+        this.state ={
+            searchValue: ''
+        }
+    }
+    
+    searchCurrency = (e) => {
+        this.setState({searchValue: e.target.value})
+    }
+
+    getList = () =>{
+        const list = this.props.list;
+        //filter list on input change, and change all to same case
+        const listFilterd = list.filter(a => {
+
+              const check = a.code.toLowerCase();
+              const match = this.state.searchValue.toLowerCase();
+
+              return check.indexOf(match) >= 0; 
+        })
+        //gets end view result
+        const listEnd = listFilterd.map((a, i) => {
             return (
                 <tr key={i}>
                     <td>{a.currency}</td>
@@ -19,8 +40,26 @@ class Table extends Component {
             )
         })
 
+        return listEnd;
+    }
+
+    render() {
         return (
             <div className="mt-4">
+                <form 
+                    className="form-group form-inline d-flex justify-content-between">
+                    <label 
+                        htmlFor="search-currency" 
+                        className='search-text'>
+                        szukaj po kodzie waluty:
+                    </label>
+                    <input 
+                        value={this.state.value}
+                        onChange={this.searchCurrency} 
+                        className="form-control input-filter" 
+                        id="search-currency" 
+                        type="text"/>
+                </form>
                 <table className="table table-bordered table-striped currency-tab">
                     <thead>
                         <tr className="table-success">
@@ -31,7 +70,7 @@ class Table extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {list}
+                        {this.getList()}
                     </tbody>
                 </table>
             </div>

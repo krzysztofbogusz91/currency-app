@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import data from '../api/nbp_tab';
 import Table from './Table';
 import { Header } from '../containers/header';
+import Form from '../components/Form'
 
 // <ul>
 //     <li>Current buy and sell tab with currencies</li>
@@ -40,6 +41,7 @@ class CurrencyApp extends Component {
                 <Header />
                 <div>
                     <Table list={this.state.list}/>
+                    <Form />
                 </div>
                 <footer>
                     <div className="text-right">timmer: 10:45:22</div>

@@ -14,6 +14,10 @@ describe('CurrencyApp',()=>{
       it('should contain `Table` component', () => {
         expect(currency.find('Table').exists()).toBe(true);
       });
+
+      it('should contain `Form` component', () => {
+        expect(currency.find('Form').exists()).toBe(true);
+      });
   });
   
   describe('component `state` contain list and data after mock api call', () => {
