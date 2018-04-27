@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const propTypes = {
     options: PropTypes.array,
-    getDataFromForm: PropTypes.func
+    getDataFromForm: PropTypes.func,
+    list: PropTypes.array
 };
 
 
@@ -46,6 +47,7 @@ class Form extends Component {
     }
 
     render() {
+        //console.log(this.props.list)
         return (
             <div className="mt-5">
                 <form>

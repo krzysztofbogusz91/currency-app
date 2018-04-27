@@ -5,6 +5,16 @@ ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Form
     getDataFromForm={[Function]}
+    list={
+        Array [
+            Object {
+              "ask": 3.4157,
+              "bid": 3.3481,
+              "effectiveDate": "2018-04-16",
+              "no": "074/C/NBP/2018",
+            },
+          ]
+    }
     options={
         Array [
             "USD",
@@ -43,6 +53,14 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -54,6 +72,14 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -67,6 +93,14 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -184,6 +218,14 @@ ReactWrapper {
                       props={
                                             Object {
                                                                   "getDataFromForm": [Function],
+                                                                  "list": Array [
+                                                                    Object {
+                                                                      "ask": 3.4157,
+                                                                      "bid": 3.3481,
+                                                                      "effectiveDate": "2018-04-16",
+                                                                      "no": "074/C/NBP/2018",
+                                                                    },
+                                                                  ],
                                                                   "options": Array [
                                                                     "USD",
                                                                     "EUR",
@@ -210,6 +252,14 @@ ReactWrapper {
                       props={
                                             Object {
                                                                   "getDataFromForm": [Function],
+                                                                  "list": Array [
+                                                                    Object {
+                                                                      "ask": 3.4157,
+                                                                      "bid": 3.3481,
+                                                                      "effectiveDate": "2018-04-16",
+                                                                      "no": "074/C/NBP/2018",
+                                                                    },
+                                                                  ],
                                                                   "options": Array [
                                                                     "USD",
                                                                     "EUR",
@@ -236,6 +286,14 @@ ReactWrapper {
                 props={
                                 Object {
                                                 "getDataFromForm": [Function],
+                                                "list": Array [
+                                                  Object {
+                                                    "ask": 3.4157,
+                                                    "bid": 3.3481,
+                                                    "effectiveDate": "2018-04-16",
+                                                    "no": "074/C/NBP/2018",
+                                                  },
+                                                ],
                                                 "options": Array [
                                                   "USD",
                                                   "EUR",
@@ -323,6 +381,14 @@ ReactWrapper {
                   props={
                                     Object {
                                                       "getDataFromForm": [Function],
+                                                      "list": Array [
+                                                        Object {
+                                                          "ask": 3.4157,
+                                                          "bid": 3.3481,
+                                                          "effectiveDate": "2018-04-16",
+                                                          "no": "074/C/NBP/2018",
+                                                        },
+                                                      ],
                                                       "options": Array [
                                                         "USD",
                                                         "EUR",
@@ -351,6 +417,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -363,6 +437,14 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -459,7 +541,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                        "lineNumber": 19,
+                        "lineNumber": 20,
                       },
                       "alternate": null,
                       "child": null,
@@ -488,7 +570,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                          "lineNumber": 19,
+                          "lineNumber": 20,
                         },
                         "alternate": null,
                         "child": null,
@@ -1310,6 +1392,14 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "getDataFromForm": [Function],
+          "list": Array [
+            Object {
+              "ask": 3.4157,
+              "bid": 3.3481,
+              "effectiveDate": "2018-04-16",
+              "no": "074/C/NBP/2018",
+            },
+          ],
           "options": Array [
             "USD",
             "EUR",
@@ -1323,6 +1413,14 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "getDataFromForm": [Function],
+          "list": Array [
+            Object {
+              "ask": 3.4157,
+              "bid": 3.3481,
+              "effectiveDate": "2018-04-16",
+              "no": "074/C/NBP/2018",
+            },
+          ],
           "options": Array [
             "USD",
             "EUR",
@@ -1347,6 +1445,14 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -1358,6 +1464,14 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -1371,6 +1485,14 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "getDataFromForm": [Function],
+              "list": Array [
+                Object {
+                  "ask": 3.4157,
+                  "bid": 3.3481,
+                  "effectiveDate": "2018-04-16",
+                  "no": "074/C/NBP/2018",
+                },
+              ],
               "options": Array [
                 "USD",
                 "EUR",
@@ -1488,6 +1610,14 @@ ReactWrapper {
                       props={
                                             Object {
                                                                   "getDataFromForm": [Function],
+                                                                  "list": Array [
+                                                                    Object {
+                                                                      "ask": 3.4157,
+                                                                      "bid": 3.3481,
+                                                                      "effectiveDate": "2018-04-16",
+                                                                      "no": "074/C/NBP/2018",
+                                                                    },
+                                                                  ],
                                                                   "options": Array [
                                                                     "USD",
                                                                     "EUR",
@@ -1514,6 +1644,14 @@ ReactWrapper {
                       props={
                                             Object {
                                                                   "getDataFromForm": [Function],
+                                                                  "list": Array [
+                                                                    Object {
+                                                                      "ask": 3.4157,
+                                                                      "bid": 3.3481,
+                                                                      "effectiveDate": "2018-04-16",
+                                                                      "no": "074/C/NBP/2018",
+                                                                    },
+                                                                  ],
                                                                   "options": Array [
                                                                     "USD",
                                                                     "EUR",
@@ -1540,6 +1678,14 @@ ReactWrapper {
                 props={
                                 Object {
                                                 "getDataFromForm": [Function],
+                                                "list": Array [
+                                                  Object {
+                                                    "ask": 3.4157,
+                                                    "bid": 3.3481,
+                                                    "effectiveDate": "2018-04-16",
+                                                    "no": "074/C/NBP/2018",
+                                                  },
+                                                ],
                                                 "options": Array [
                                                   "USD",
                                                   "EUR",
@@ -1627,6 +1773,14 @@ ReactWrapper {
                   props={
                                     Object {
                                                       "getDataFromForm": [Function],
+                                                      "list": Array [
+                                                        Object {
+                                                          "ask": 3.4157,
+                                                          "bid": 3.3481,
+                                                          "effectiveDate": "2018-04-16",
+                                                          "no": "074/C/NBP/2018",
+                                                        },
+                                                      ],
                                                       "options": Array [
                                                         "USD",
                                                         "EUR",
@@ -1655,6 +1809,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -1667,6 +1829,14 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -1698,6 +1868,14 @@ ReactWrapper {
       "onSelect": [Function],
       "props": Object {
         "getDataFromForm": [Function],
+        "list": Array [
+          Object {
+            "ask": 3.4157,
+            "bid": 3.3481,
+            "effectiveDate": "2018-04-16",
+            "no": "074/C/NBP/2018",
+          },
+        ],
         "options": Array [
           "USD",
           "EUR",
@@ -1719,6 +1897,14 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "getDataFromForm": [Function],
+      "list": Array [
+        Object {
+          "ask": 3.4157,
+          "bid": 3.3481,
+          "effectiveDate": "2018-04-16",
+          "no": "074/C/NBP/2018",
+        },
+      ],
       "options": Array [
         "USD",
         "EUR",
@@ -2236,6 +2422,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -2247,6 +2441,14 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -2260,6 +2462,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -2377,6 +2587,14 @@ ReactWrapper {
                         props={
                                                 Object {
                                                                         "getDataFromForm": [Function],
+                                                                        "list": Array [
+                                                                          Object {
+                                                                            "ask": 3.4157,
+                                                                            "bid": 3.3481,
+                                                                            "effectiveDate": "2018-04-16",
+                                                                            "no": "074/C/NBP/2018",
+                                                                          },
+                                                                        ],
                                                                         "options": Array [
                                                                           "USD",
                                                                           "EUR",
@@ -2403,6 +2621,14 @@ ReactWrapper {
                         props={
                                                 Object {
                                                                         "getDataFromForm": [Function],
+                                                                        "list": Array [
+                                                                          Object {
+                                                                            "ask": 3.4157,
+                                                                            "bid": 3.3481,
+                                                                            "effectiveDate": "2018-04-16",
+                                                                            "no": "074/C/NBP/2018",
+                                                                          },
+                                                                        ],
                                                                         "options": Array [
                                                                           "USD",
                                                                           "EUR",
@@ -2429,6 +2655,14 @@ ReactWrapper {
                   props={
                                     Object {
                                                       "getDataFromForm": [Function],
+                                                      "list": Array [
+                                                        Object {
+                                                          "ask": 3.4157,
+                                                          "bid": 3.3481,
+                                                          "effectiveDate": "2018-04-16",
+                                                          "no": "074/C/NBP/2018",
+                                                        },
+                                                      ],
                                                       "options": Array [
                                                         "USD",
                                                         "EUR",
@@ -2516,6 +2750,14 @@ ReactWrapper {
                     props={
                                         Object {
                                                             "getDataFromForm": [Function],
+                                                            "list": Array [
+                                                              Object {
+                                                                "ask": 3.4157,
+                                                                "bid": 3.3481,
+                                                                "effectiveDate": "2018-04-16",
+                                                                "no": "074/C/NBP/2018",
+                                                              },
+                                                            ],
                                                             "options": Array [
                                                               "USD",
                                                               "EUR",
@@ -2544,6 +2786,14 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "getDataFromForm": [Function],
+                  "list": Array [
+                    Object {
+                      "ask": 3.4157,
+                      "bid": 3.3481,
+                      "effectiveDate": "2018-04-16",
+                      "no": "074/C/NBP/2018",
+                    },
+                  ],
                   "options": Array [
                     "USD",
                     "EUR",
@@ -2556,6 +2806,14 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "getDataFromForm": [Function],
+                  "list": Array [
+                    Object {
+                      "ask": 3.4157,
+                      "bid": 3.3481,
+                      "effectiveDate": "2018-04-16",
+                      "no": "074/C/NBP/2018",
+                    },
+                  ],
                   "options": Array [
                     "USD",
                     "EUR",
@@ -2652,7 +2910,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                          "lineNumber": 19,
+                          "lineNumber": 20,
                         },
                         "alternate": null,
                         "child": null,
@@ -2681,7 +2939,7 @@ ReactWrapper {
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
                             "fileName": "C:\\\\Users\\\\KFBZ\\\\Desktop\\\\Projects Private\\\\nbp-viever-old\\\\src\\\\components\\\\Form.js",
-                            "lineNumber": 19,
+                            "lineNumber": 20,
                           },
                           "alternate": null,
                           "child": null,
@@ -3503,6 +3761,14 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "getDataFromForm": [Function],
+            "list": Array [
+              Object {
+                "ask": 3.4157,
+                "bid": 3.3481,
+                "effectiveDate": "2018-04-16",
+                "no": "074/C/NBP/2018",
+              },
+            ],
             "options": Array [
               "USD",
               "EUR",
@@ -3516,6 +3782,14 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "getDataFromForm": [Function],
+            "list": Array [
+              Object {
+                "ask": 3.4157,
+                "bid": 3.3481,
+                "effectiveDate": "2018-04-16",
+                "no": "074/C/NBP/2018",
+              },
+            ],
             "options": Array [
               "USD",
               "EUR",
@@ -3540,6 +3814,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -3551,6 +3833,14 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -3564,6 +3854,14 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "getDataFromForm": [Function],
+                "list": Array [
+                  Object {
+                    "ask": 3.4157,
+                    "bid": 3.3481,
+                    "effectiveDate": "2018-04-16",
+                    "no": "074/C/NBP/2018",
+                  },
+                ],
                 "options": Array [
                   "USD",
                   "EUR",
@@ -3681,6 +3979,14 @@ ReactWrapper {
                         props={
                                                 Object {
                                                                         "getDataFromForm": [Function],
+                                                                        "list": Array [
+                                                                          Object {
+                                                                            "ask": 3.4157,
+                                                                            "bid": 3.3481,
+                                                                            "effectiveDate": "2018-04-16",
+                                                                            "no": "074/C/NBP/2018",
+                                                                          },
+                                                                        ],
                                                                         "options": Array [
                                                                           "USD",
                                                                           "EUR",
@@ -3707,6 +4013,14 @@ ReactWrapper {
                         props={
                                                 Object {
                                                                         "getDataFromForm": [Function],
+                                                                        "list": Array [
+                                                                          Object {
+                                                                            "ask": 3.4157,
+                                                                            "bid": 3.3481,
+                                                                            "effectiveDate": "2018-04-16",
+                                                                            "no": "074/C/NBP/2018",
+                                                                          },
+                                                                        ],
                                                                         "options": Array [
                                                                           "USD",
                                                                           "EUR",
@@ -3733,6 +4047,14 @@ ReactWrapper {
                   props={
                                     Object {
                                                       "getDataFromForm": [Function],
+                                                      "list": Array [
+                                                        Object {
+                                                          "ask": 3.4157,
+                                                          "bid": 3.3481,
+                                                          "effectiveDate": "2018-04-16",
+                                                          "no": "074/C/NBP/2018",
+                                                        },
+                                                      ],
                                                       "options": Array [
                                                         "USD",
                                                         "EUR",
@@ -3820,6 +4142,14 @@ ReactWrapper {
                     props={
                                         Object {
                                                             "getDataFromForm": [Function],
+                                                            "list": Array [
+                                                              Object {
+                                                                "ask": 3.4157,
+                                                                "bid": 3.3481,
+                                                                "effectiveDate": "2018-04-16",
+                                                                "no": "074/C/NBP/2018",
+                                                              },
+                                                            ],
                                                             "options": Array [
                                                               "USD",
                                                               "EUR",
@@ -3848,6 +4178,14 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "getDataFromForm": [Function],
+                  "list": Array [
+                    Object {
+                      "ask": 3.4157,
+                      "bid": 3.3481,
+                      "effectiveDate": "2018-04-16",
+                      "no": "074/C/NBP/2018",
+                    },
+                  ],
                   "options": Array [
                     "USD",
                     "EUR",
@@ -3860,6 +4198,14 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "getDataFromForm": [Function],
+                  "list": Array [
+                    Object {
+                      "ask": 3.4157,
+                      "bid": 3.3481,
+                      "effectiveDate": "2018-04-16",
+                      "no": "074/C/NBP/2018",
+                    },
+                  ],
                   "options": Array [
                     "USD",
                     "EUR",
@@ -3891,6 +4237,14 @@ ReactWrapper {
         "onSelect": [Function],
         "props": Object {
           "getDataFromForm": [Function],
+          "list": Array [
+            Object {
+              "ask": 3.4157,
+              "bid": 3.3481,
+              "effectiveDate": "2018-04-16",
+              "no": "074/C/NBP/2018",
+            },
+          ],
           "options": Array [
             "USD",
             "EUR",
@@ -3912,6 +4266,14 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "getDataFromForm": [Function],
+        "list": Array [
+          Object {
+            "ask": 3.4157,
+            "bid": 3.3481,
+            "effectiveDate": "2018-04-16",
+            "no": "074/C/NBP/2018",
+          },
+        ],
         "options": Array [
           "USD",
           "EUR",

@@ -7,8 +7,16 @@ import { mockDataList } from 'axios';
 describe('Form', () => {
     //overide options pased in real component
     const options =  ["USD","EUR"];
+    const list = [
+        {
+            "no": "074/C/NBP/2018",
+            "effectiveDate": "2018-04-16",
+            "bid": 3.3481,
+            "ask": 3.4157
+            }
+    ]
     const getDataFromForm = jest.fn()
-    const props = {getDataFromForm, options}
+    const props = {getDataFromForm, options,list}
     
 
     const form = mount(<Form {...props} />)
@@ -31,12 +39,21 @@ describe('Form', () => {
     })
     
     describe('testing button and data flow in components',()=>{
+        it('should return empty arr if passed wrogng arguments', () => {
+            form.setState({range: "-1",select: ""})
+            getDataFromForm.mockReturnValue([])
+            console.log(form.props().getDataFromForm())
+            //form.find('.fetch-list').simulate('click');
+            //expect(form.props().list).toEqual([])
+        });
+
         beforeEach(() => {
             form.find('.fetch-list').simulate('click');
         });
 
         it('should get list of data passed in props', () => {
-            
+            console.log(form.props().list)
+            expect(form.props().list.length).toEqual(1);
         });
     })
 

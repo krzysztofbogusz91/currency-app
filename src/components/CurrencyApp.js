@@ -5,12 +5,6 @@ import Table from './Table';
 import { Header } from '../containers/header';
 import Form from '../components/Form'
 
-// <ul>
-//     <li>Current buy and sell tab with currencies</li>
-//     <li>Custom currency Y search with X last buy and sell options list</li>
-//     <li>Current Time</li>
-// </ul>
-
 class CurrencyApp extends Component {
     constructor() {
        super()
@@ -45,7 +39,7 @@ class CurrencyApp extends Component {
                 console.log(result)
                 return result
             }).catch( err => {
-                this.setState ({ list: [] })
+                this.setState ({ dayList: [] })
             }) 
     }
     
@@ -56,6 +50,7 @@ class CurrencyApp extends Component {
                 <div>
                     <Table list={this.state.list}/>
                     <Form
+                        list={this.state.dayList}
                         options={this.state.list.map(a=>{
                            return a.code
                         })}

@@ -3,10 +3,12 @@ import CurrencyApp from './CurrencyApp';
 import {shallow} from 'enzyme';
 import { config } from '../enzyme_set_up';
 import mockData from 'axios';
+import mockDataList from '../__mocks__/axios-list';
 
 //why mount brakes it all? 
 describe('CurrencyApp',()=>{
   let currency = shallow(<CurrencyApp />);
+
   describe('renders correctly and contain children components', () => {
       it('renders correctly', ()=>{
         expect(currency).toMatchSnapshot();
@@ -41,5 +43,17 @@ describe('CurrencyApp',()=>{
         expect(currency.state('list')).toEqual([])
         
       });
+
+      it('`state` should have empty Daylist on err', () => {
+        //change return form mock call only once
+        mockData.get.mockImplementationOnce(()=> Promise.reject({
+          data: "error"
+        })) 
+        //renders again with new state
+        let currency = shallow(<CurrencyApp />);
+        expect(currency.state('dayList')).toEqual([])
+        
+      });
   });
 })
+ 
